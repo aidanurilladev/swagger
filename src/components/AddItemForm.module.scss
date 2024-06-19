@@ -1,0 +1,30 @@
+.AddItem {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  .box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input {
+      width: 500px;
+      padding: 10px;
+    }
+    button {
+      width: 500px;
+      height: 40px;
+      background-color: blueviolet;
+      color: #fff;
+    }
+  }
+  .block {
+    display: flex;
+    flex-direction: column;
+    .list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between
+    }
+  }
+}
